@@ -1,0 +1,153 @@
+/* max height */
+@media screen and (max-height: 690px) {
+	.login-scroll {
+		overflow: hidden;
+		overflow-y: scroll !important;
+	}
+}
+
+
+/* max width */
+@media screen and (max-width: 1200px) {
+	.bg-price {
+		height: 730px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.section {
+		padding: 0 60px;
+	}
+	.nav-main {
+		padding: 50px 60px 12px 50px;
+	}
+	.ptb {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.p-t-320 {
+		padding-top: 350px;
+	}
+}
+
+@media screen and (max-width: 891px) {
+	.dark {
+		display: none;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: 9;
+	}
+
+	.menu {
+		display: block;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		margin-left: -300px;
+		width: 250px;
+		background-color: #ffffff;	
+		z-index: 99;
+		transition: 0.5s;
+	}
+
+	.menu a {
+		color: #444444;
+		display: block;
+		width: 100%;
+	}
+
+	.bars-default {
+		display: block;
+	}
+
+	.close-bars-default {
+		position: fixed;
+		right: 0;
+		top: 0;
+		margin: 30px 30px;
+		z-index: 999999;
+	}
+
+	.card-price {
+		padding: 40px 10px 40px 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.bars-default {
+		margin-top: -32px;
+	}
+
+	.m30-scroll {
+		margin-top: 30px;
+	}
+
+	.p-t-320 {
+		padding-top: 500px;
+	}
+
+	.scroll {
+		overflow-y: scroll !important;
+	}
+}
+
+@media screen and (max-width: 670px) {
+}
+
+@media screen and (max-width: 630px) {
+	.p-t-320 {
+		padding-top: 600px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.fs-40 {
+		font-size: 30px;
+	}
+	.gif-fitur {
+		width: 100%;
+	}
+	.fs-22 {
+		font-size: 18px;
+	}
+	.fs-18 {
+		font-size: 16px;
+	}
+	.header {
+		padding: 0 0px;
+	}
+	.nav-main {
+		padding: 50px 50px 12px 50px;
+	}
+	.ptb {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.section {
+		padding: 25px 40px;
+	}
+	.card-price {
+		padding: 20px 2px 20px 2px;
+	}
+	.p-t-320 {
+		padding-top: 280px;
+	}
+	.bg-clien {
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.p-t-320 {
+		padding-top: 450px;
+	}
+
+	.nav-main {
+		padding-left: 40px !important;
+		padding-right: 40px !important;
+	}
+}
