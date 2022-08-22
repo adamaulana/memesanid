@@ -529,7 +529,7 @@ option {
 	padding-top:100px;
 	padding-bottom:40px;
 }
-#lingkup-usaha .card-lingkup .img{
+#lingkup-usaha .card-lingkup .img img{
 	width:100px;
 }
 #lingkup-usaha .card-lingkup{
@@ -642,7 +642,6 @@ justify-content:center;
 #service .card-service .img{
 	width:100%;
 	height:200px;
-	filter:grayscale(100%);
 	border-radius:10px;
 }
 

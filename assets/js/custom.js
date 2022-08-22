@@ -48,9 +48,9 @@ var slider_service = new Swiper('#service-slider', {
       },
     breakpoints: {
         // when window width is >= 320px
-        320: {
+        420: {
           slidesPerView: 1,
-          spaceBetween: 20
+          spaceBetween: 0
         }
     }
 });
