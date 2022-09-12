@@ -701,6 +701,7 @@ justify-content:center;
     padding: 40px 10px 0px 10px;
     /* margin-bottom: 0px; */
     line-height: 16px;
+	text-decoration-line: line-through;
 }
 .price-card .price-month small{
 	color: #616161;
@@ -717,6 +718,7 @@ justify-content:center;
     padding: 10px 10px 10px 10px;
     /* margin-bottom: 0px; */
     line-height: 16px;
+
 }
 .price-card .price-years small{
 	color: #616161;
